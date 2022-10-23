@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: leasing-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: fancyday.fit:8848
+      config:
+        server-addr: fancyday.fit:8848
+        group: DEFAULT_GROUP
+        file-extension: yaml

@@ -1,0 +1,17 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  fit.fancyday.common.exception.ExceptionCatch,\
+  fit.fancyday.common.AutoConfiguration,\
+  fit.fancyday.common.tencent.DetectFace,\
+  fit.fancyday.common.tencent.CosTemplate,\
+  fit.fancyday.common.tencent.SmsTemplate,\
+  fit.fancyday.common.tencent.GreenImage,\
+  fit.fancyday.common.tencent.GreenText,\
+  fit.fancyday.common.tencent.TextRecognition
+
+#  fit.fancyday.common.swagger.SwaggerConfiguration,\
+#  fit.fancyday.common.swagger.Swagger2Configuration,\
+#  fit.fancyday.common.aliyun.GreenTextScan,\
+#  fit.fancyday.common.aliyun.GreenImageScan,\
+#  fit.fancyday.common.redis.CacheService,\
+#  fit.fancyday.common.jackson.InitJacksonConfig
+#???????Common??????????????Bean?

@@ -1,0 +1,42 @@
+#全局端口定义server:
+# 全局字符集设置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://fancyday.fit:3306/leasing-user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false&autoReconnect=true
+    username: root
+    password: 123456
+  http:
+    encoding:
+      force: true
+      charset: utf-8
+      enabled: true
+  aop:
+    proxy-target-class: true
+server:
+  tomcat:
+    uri-encoding: utf-8
+tencent:
+  sms:
+    waitTime: 10
+    signName: 网页开发练习个人计算机知
+    smsSdkAppId: 1400732789
+    secretId: AKIDoc9OO8alfIejW18yXqse8LGtFK8evvd4
+    secretKey: MXR6TeYA5kBMIyQcYFjyzqSoukKejZBY
+  cos:
+    secretId: AKIDoc9OO8alfIejW18yXqse8LGtFK8evvd4
+    secretKey: MXR6TeYA5kBMIyQcYFjyzqSoukKejZBY
+    bucketName: general-store-1253847355
+    pathKey: my-img
+  face:
+    secretId: AKIDoc9OO8alfIejW18yXqse8LGtFK8evvd4
+    secretKey: MXR6TeYA5kBMIyQcYFjyzqSoukKejZBY
+  text:
+    secretId: AKIDoc9OO8alfIejW18yXqse8LGtFK8evvd4
+    secretKey: MXR6TeYA5kBMIyQcYFjyzqSoukKejZBY
+  image:
+    secretId: AKIDoc9OO8alfIejW18yXqse8LGtFK8evvd4
+    secretKey: MXR6TeYA5kBMIyQcYFjyzqSoukKejZBY
+baidu:
+  ocr:
+    accessToken: 24.1c4b581f5ed22d7751b10eac2a0fa888.2592000.1668661788.282335-27966227
